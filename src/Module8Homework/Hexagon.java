@@ -1,8 +1,9 @@
 package Module8Homework;
 
 public class Hexagon extends Shape {
+    protected String name = "Hexagon";
     @Override
     protected String getShapeName() {
-        return "The shape name is hexagon";
+       return name;
     }
 }
